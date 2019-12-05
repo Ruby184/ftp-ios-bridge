@@ -1,0 +1,19 @@
+{
+  "name": "ftp-ios-bridge",
+  "version": "1.0.0",
+  "description": "FTP server used to serve html to allow opening url in Safari on iOS from In App browser like Facebook",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ruby184/ftp-ios-bridge"
+  },
+  "author": "Ľubomír Jesze <lubomir.j184@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ftp-srv": "^4.3.0"
+  }
+}

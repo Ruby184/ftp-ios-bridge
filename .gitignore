@@ -1,0 +1,13 @@
+coverage
+node_modules
+.DS_Store
+npm-debug.log
+.idea
+out
+.nyc_output
+.DS_STORE
+.vscode/
+*.log
+yarn.lock
+build
+dist

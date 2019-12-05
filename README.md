@@ -1,8 +1,6 @@
 
 ## Description
 
-PM2 module to automatically broadcast inter-process messages between workers when using Adonis application with websockets managed by PM2.
+FTP server used to serve html to allow opening url in Safari on iOS from In App browser like Facebook
 
 ## Install
-
-pm2 install ruby184/pm2-adonis
