@@ -6,7 +6,7 @@
       var regex = new RegExp('[\\?&]url=([^&#]*)');
       var results = regex.exec(location.search);
       return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-    });
+    })();
 
     url && location.replace(url);
   </script>
