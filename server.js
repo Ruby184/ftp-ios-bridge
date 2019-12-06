@@ -12,7 +12,7 @@ const ftpServer = new FtpSrv({
   pasv_url: host,
   pasv_min,
   pasv_max,
-  whitelist: ['USER', 'SYST', 'PWD', 'TYPE', 'SIZE', 'CWD', 'PASV', 'RETR'],
+  whitelist: ['USER', 'SYST', 'PWD', 'TYPE', 'SIZE', 'CWD', 'PASV', 'RETR', 'QUIT'],
   anonymous: true
 })
 
