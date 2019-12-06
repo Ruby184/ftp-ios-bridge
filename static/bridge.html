@@ -1,13 +1,1 @@
-<!doctype html>
-<html>
-<body>
-  <script>
-    var url = (function(){
-      var regex = new RegExp('[\\?&]url=([^&#]*)');
-      var results = regex.exec(location.search);
-      return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-    })();
-    url && location.replace(url);
-  </script>
-</body>
-</html>
+<!doctype html><html><body><script>var a=/[\?&]url=([^&#]*)/.exec(location.search);a&&location.replace(decodeURIComponent(a[1].replace(/\+/g," ")));</script></body></html>
