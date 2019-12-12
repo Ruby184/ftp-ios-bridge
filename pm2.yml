@@ -8,4 +8,4 @@ apps:
       NODE_ENV: 'production'
       PORT: 21
       PASV_MIN: 1024
-      PASX_MAX: 8192
+      PASV_MAX: 8192
