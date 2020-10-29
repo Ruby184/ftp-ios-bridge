@@ -1,5 +1,5 @@
 # Include the latest node image
-FROM node:latest
+FROM node:lts
 
 # Aliases setup for container folders
 ARG SERVER="/ftp-ios-bridge"
