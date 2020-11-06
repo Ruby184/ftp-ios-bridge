@@ -3,9 +3,6 @@ apps:
     name: 'ftp-ios-bridge'
     instances: 1
     exec_mode: 'fork'
-    max_memory_restart: '100M'
+    max_memory_restart: '150M'
     env:
       NODE_ENV: 'production'
-      PORT: 21
-      PASV_MIN: 1024
-      PASV_MAX: 8192
