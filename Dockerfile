@@ -5,7 +5,9 @@ FROM node:lts
 ARG SERVER="/ftp-ios-bridge"
 ARG SERVER_src="./ftp-ios-bridge"
 ENV PORT="21"
-ENV PASV_PORTS="1024-8192"
+ENV PASV_PORTS="30000-32000"
+ENV PASV_MIN="30000"
+ENV PASV_MAX="32000"
 
 # Set the working directory inside the container to server module
 WORKDIR ${SERVER}
